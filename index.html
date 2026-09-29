@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adrian Di Giovanni</title>
+<meta name="description" content="Adrian Di Giovanni. Site under construction.">
+<!-- A holding page while the real site is built. Everything is inline and it
+     loads nothing else, so there is nothing to break or go stale. The colours
+     are a nod to the brown and navy of the old Bluehost page. -->
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf7f2;
+    --ink: #3b2412;
+    --muted: #6b5a4c;
+    --rule: #000066;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17130f;
+      --ink: #f1e8dc;
+      --muted: #b8a999;
+      --rule: #8f9be0;
+    }
+  }
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: grid;
+    place-items: center;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 8vw, 3.5rem);
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    line-height: 1.15;
+  }
+  hr {
+    width: 3rem;
+    margin: 1.25rem auto;
+    border: 0;
+    border-top: 2px solid var(--rule);
+  }
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Adrian Di Giovanni</h1>
+  <hr>
+  <p>Site under construction</p>
+</main>
+</body>
+</html>
